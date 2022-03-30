@@ -34,4 +34,5 @@ def hangman(word):
         print("\n".join(stages[0:wrong+1]))
         print("あなたの負け！正解は{}.".format(word))
 
+prin("Hello")
 hangman("cat")
